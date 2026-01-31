@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box ;
+    background: linear-gradient(135deg,#1d3,#79d3fa,#505e80);
+    background-size: 800% 800%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 420px;
+    width: 350px;
+    background-color: rgb(251, 255, 251);
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px rgb(95, 93, 93, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+   
+}
+.image{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.heading{
+        font-family: Poppins;
+        font-size: 24px;
+        padding-top: 8px;
+        color: rgb(31, 30, 30);
+}
+.skill1{
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 13px;
+    columns: rgb(92, 91, 91);
+}
+hr{
+    width: 80%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: rgb(167, 164, 164);
+}
+.discription{
+    text-align: center;
+     font-family: poppins;
+    font-weight: 800;
+    font-size: 13px;
+    color: rgb(124, 122, 122);
+    line-height: 22px;
+    margin-right: 32px;
+    margin-left: 32px;
+    
+}
+.skill{
+    font-size: 17px;
+    font-family: poppins;
+}
+.orange{
+    font-size: 14px;
+    font-family: poppins;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-bottom: 3px;
+    padding-top: 2px;
+    padding-right: 10px;
+    color: white;
+    background-color: orangered;
+}
+.blue{
+     font-size: 14px;
+    font-family: poppins;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-bottom: 3px;
+    padding-top: 2px;
+    padding-right: 10px;
+    color: white;
+    background-color: rgb(13, 116, 156);
+}
+.yellow{
+     font-size: 14px;
+    font-family: poppins;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-bottom: 3px;
+    padding-top: 2px;
+    padding-right: 10px;
+    color: white;
+    background-color: rgb(216, 177, 5);
+}
+.green{
+     font-size: 14px;
+    font-family: poppins;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-bottom: 3px;
+    padding-top: 2px;
+    padding-right: 10px;
+    color: white;
+    background-color: green;
+}
+.coloredskills{
+    padding-top: 8px;
+}
+.buttons{
+    margin: 24px;
+   
+}
+.but1{
+    font-size: 17px;
+    margin-right: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: 0px;
+    background-color: #5aa9ff;
+    color: white;
+    border-radius: 5px;
+
+}
+.but2{
+    margin-left: 30px;font-size: 17px;
+    padding-left: 19px;
+    padding-right: 19px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: white;
+    border: 0px;
+    background-color: rgb(78, 76, 76);
+    border-color: rgb(17, 16, 16);
+    border-radius: 5px;
+}
